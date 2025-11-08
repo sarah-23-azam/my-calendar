@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://sarah-23-azam.github.io/elegant-event-calendar"
+}
