@@ -1,7 +1,24 @@
 {
+  "name": "elegant-event-calendar", 
+  "version": "0.1.0",              
+  "homepage": "https://sarah-23-azam.github.io/elegant-event-calendar", 
+  "private": true,                 
   "dependencies": {
-    "dayjs": "^1.11.19",
-    "gh-pages": "^6.3.0"
+    "react": "...",               
+    "react-dom": "...",            
+    "react-scripts": "...",        
+    "dayjs": "^1.11.19"            
+    
   },
-  "homepage": "https://sarah-23-azam.github.io/elegant-event-calendar"
+  "scripts": {                      
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",   
+    "deploy": "gh-pages -d build"   
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
